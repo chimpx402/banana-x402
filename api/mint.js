@@ -13,7 +13,7 @@ export default async function handler(req, res) {
         description: "Mint 5,000 BANANA for 1 USDC on Base.",
         mimeType: "application/json",
         payTo: "0xc7a41a4c6ed9a7abc0457938126668bf366e44ed",
-        asset: "0x833589fCD6eDb6E08f4c7C32D4f71b54bD4a02913", // USDC on Base
+        asset: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // USDC on Base
         maxTimeoutSeconds: 60,
 
         outputSchema: {
