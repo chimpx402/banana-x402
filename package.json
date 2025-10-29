@@ -1,12 +1,10 @@
 {
-  "version": 2,
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "vercel-node@3.0.0"
-    }
+  "name": "banana-x402",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev --yes",
+    "build": "echo \"no build step\""
   },
-  "routes": [
-    { "src": "^/api/mint$", "dest": "/api/mint.js" },
-    { "src": "^/api/(.*)$", "dest": "/api/$1.js" }
-  ]
+  "dependencies": {}
 }
