@@ -2,11 +2,10 @@
   "version": 2,
   "functions": {
     "api/**/*.js": {
-      "runtime": "nodejs3.0.0"
+      "runtime": "@vercel/node@3.0.0"
     }
   },
   "routes": [
-    { "src": "^/api/mint$", "dest": "/api/mint.js" },
     { "src": "^/api/(.*)$", "dest": "/api/$1.js" }
   ]
 }
