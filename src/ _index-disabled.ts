@@ -37,7 +37,7 @@ app.get('/about', function (req, res) {
 })
 
 // Example API endpoint - JSON
-app.get('/api-data', (req, res) => {
+app.get('/api/mint', (req, res) => {
   res.json({
     message: 'Here is some sample API data',
     items: ['apple', 'banana', 'cherry'],
